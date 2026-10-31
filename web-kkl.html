@@ -1,0 +1,529 @@
+<!doctype html>
+<html lang="id" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laporan KKL Informatika 2026 - UPGRIS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ["Inter", "sans-serif"],
+            },
+            colors: {
+              primary: "#1e40af",
+              secondary: "#3b82f6",
+              dark: "#0f172a",
+              light: "#f8fafc",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body
+    class="bg-light text-slate-800 antialiased selection:bg-secondary selection:text-white"
+  >
+    <nav
+      class="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b border-slate-200"
+    >
+      <div
+        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center"
+      >
+        <div class="flex items-center gap-3">
+          <div
+            class="w-8 h-8 bg-primary rounded flex items-center justify-center text-white font-bold"
+          >
+            IF
+          </div>
+          <span class="font-bold text-lg text-dark tracking-tight"
+            >KKL UPGRIS 2026</span
+          >
+        </div>
+        <div
+          class="hidden md:flex space-x-8 text-sm font-medium text-slate-600"
+        >
+          <a href="#beranda" class="hover:text-primary transition-colors"
+            >Beranda</a
+          >
+          <a href="#industri" class="hover:text-primary transition-colors"
+            >Kunjungan</a
+          >
+          <a href="#pariwisata" class="hover:text-primary transition-colors"
+            >Observasi</a
+          >
+          <a href="#analisis" class="hover:text-primary transition-colors"
+            >Analisis</a
+          >
+          <a href="#galeri" class="hover:text-primary transition-colors"
+            >Galeri</a
+          >
+          <a href="#refleksi" class="hover:text-primary transition-colors"
+            >Refleksi</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <header
+      id="beranda"
+      class="relative pt-32 pb-20 lg:pt-40 lg:pb-28 bg-dark overflow-hidden"
+    >
+      <div class="absolute inset-0 z-0 opacity-20">
+        <img
+          src="fotbar3.jpg"
+          alt="Hero Background"
+          class="w-full h-full object-cover"
+        />
+      </div>
+      <div
+        class="absolute inset-0 bg-gradient-to-t from-dark to-transparent z-0"
+      ></div>
+
+      <div
+        class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center"
+      >
+        <span
+          class="inline-block py-1.5 px-4 rounded-full bg-secondary/20 text-blue-200 border border-secondary/30 text-xs font-semibold tracking-widest uppercase mb-6"
+        >
+          18–22 Agustus 2026
+        </span>
+        <h1
+          class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-tight mb-6"
+        >
+          Laporan Kuliah Kerja Lapangan <br class="hidden md:block" />
+          S1 Informatika
+        </h1>
+        <p
+          class="text-lg text-slate-300 mb-10 max-w-2xl mx-auto leading-relaxed"
+        >
+          Menghubungkan pengetahuan teoritis dengan pengamatan langsung di
+          industri manufaktur, lembaga pelatihan, serta sektor pariwisata di
+          Bali.
+        </p>
+      </div>
+    </header>
+
+    <section id="industri" class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl font-bold text-dark mb-4">
+            Kunjungan Industri & Pelatihan
+          </h2>
+          <div class="w-16 h-1 bg-primary mx-auto rounded"></div>
+          <p class="mt-4 text-slate-600 max-w-2xl mx-auto">
+            Pengamatan ekosistem kerja, otomatisasi, dan pengembangan SDM
+            digital.
+          </p>
+        </div>
+
+        <div class="grid lg:grid-cols-2 gap-12 items-center mb-20">
+          <div class="rounded-xl overflow-hidden shadow-xl h-80">
+            <img
+              src="victoria-care.jpg"
+              alt="PT Victoria Care Indonesia"
+              class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+            />
+          </div>
+          <div>
+            <span
+              class="text-primary font-semibold tracking-wide text-sm uppercase"
+              >Manufaktur Kosmetik</span
+            >
+            <h3 class="text-2xl font-bold text-dark mt-2 mb-4">
+              PT Victoria Care Indonesia Tbk
+            </h3>
+            <p class="text-slate-600 mb-4 leading-relaxed">
+              Kunjungan ini memberikan pengalaman mengenai proses industri
+              produk kosmetik serta perawatan tubuh dan rambut, seperti
+              Herborist dan CBD.
+            </p>
+            <p class="text-slate-600 mb-6 leading-relaxed">
+              Dari sudut pandang Informatika, pengamatan difokuskan pada
+              penggunaan aplikasi Inject, komputer operasional, dan mesin
+              pengolahan air limbah yang membuktikan peran teknologi dalam
+              mendukung riset, produksi, pengemasan, hingga pengelolaan
+              lingkungan perusahaan.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="grid lg:grid-cols-2 gap-12 items-center flex-col-reverse lg:flex-row-reverse"
+        >
+          <div class="rounded-xl overflow-hidden shadow-xl h-80 lg:order-2">
+            <img
+              src="bdi-denpasar.jpg"
+              alt="BDI Denpasar"
+              class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+            />
+          </div>
+          <div class="lg:order-1">
+            <span
+              class="text-primary font-semibold tracking-wide text-sm uppercase"
+              >Pengembangan SDM</span
+            >
+            <h3 class="text-2xl font-bold text-dark mt-2 mb-4">
+              Balai Diklat Industri Denpasar
+            </h3>
+            <p class="text-slate-600 mb-4 leading-relaxed">
+              Kunjungan ini memberikan pengalaman praktik langsung pengolahan
+              foto menggunakan aplikasi Adobe Lightroom untuk mengatur
+              pencahayaan, warna, dan kontras visual.
+            </p>
+            <p class="text-slate-600 mb-6 leading-relaxed">
+              Kegiatan ini menekankan bahwa Informatika juga mencakup pengolahan
+              media digital untuk dokumentasi dan promosi. Selain itu, mahasiswa
+              belajar bahwa kompetensi profesional membutuhkan kemampuan
+              beradaptasi dan belajar secara berkelanjutan.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pariwisata" class="py-20 bg-slate-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl font-bold text-dark mb-4">
+            Observasi Pariwisata & Ekonomi Kreatif
+          </h2>
+          <div class="w-16 h-1 bg-primary mx-auto rounded"></div>
+          <p class="mt-4 text-slate-600 max-w-2xl mx-auto">
+            Tinjauan dari aspek sistem informasi, pelayanan digital, dan
+            pengelolaan data pada sektor ritel serta wisata.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <div
+            class="bg-white p-8 rounded-xl shadow-sm border border-slate-100"
+          >
+            <div
+              class="w-12 h-12 bg-blue-100 text-primary rounded-lg flex items-center justify-center mb-6 text-xl font-bold"
+            >
+              1
+            </div>
+            <h4 class="text-xl font-bold text-dark mb-3">Pusat Usaha Ritel</h4>
+            <p class="text-slate-600 text-sm leading-relaxed mb-4">
+              Lokasi: Joger Luwus, Dewata, Krisna, dan Karang Kurnia.
+            </p>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Pengamatan difokuskan pada penggunaan teknologi untuk mendukung
+              pengelolaan data produk, transaksi, persediaan, dan media digital
+              dalam promosi identitas usaha.
+            </p>
+          </div>
+
+          <div
+            class="bg-white p-8 rounded-xl shadow-sm border border-slate-100"
+          >
+            <div
+              class="w-12 h-12 bg-blue-100 text-primary rounded-lg flex items-center justify-center mb-6 text-xl font-bold"
+            >
+              2
+            </div>
+            <h4 class="text-xl font-bold text-dark mb-3">Destinasi Alam</h4>
+            <p class="text-slate-600 text-sm leading-relaxed mb-4">
+              Lokasi: Ulun Danu Beratan, Pantai Kuta, dan Pantai Pandawa.
+            </p>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Destinasi wisata memerlukan penyediaan informasi digital mengenai
+              akses, fasilitas, serta pemanfaatan media digital untuk mendukung
+              pengelolaan dan promosi pariwisata secara efektif.
+            </p>
+          </div>
+
+          <div
+            class="bg-white p-8 rounded-xl shadow-sm border border-slate-100"
+          >
+            <div
+              class="w-12 h-12 bg-blue-100 text-primary rounded-lg flex items-center justify-center mb-6 text-xl font-bold"
+            >
+              3
+            </div>
+            <h4 class="text-xl font-bold text-dark mb-3">Seni Pertunjukan</h4>
+            <p class="text-slate-600 text-sm leading-relaxed mb-4">
+              Lokasi: Devdan Show dan Tari Kecak.
+            </p>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Sektor pertunjukan juga membutuhkan pengelolaan informasi digital,
+              tata cahaya teknis, promosi interaktif, serta pelayanan terpadu
+              bagi penonton dan wisatawan.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="analisis" class="py-20 bg-dark text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl font-bold mb-4">
+            Analisis Pendekatan Design Thinking
+          </h2>
+          <div class="w-16 h-1 bg-secondary mx-auto rounded"></div>
+          <p class="mt-4 text-slate-300 max-w-3xl mx-auto">
+            Berdasarkan materi pelatihan di BDI Denpasar, pengamatan di berbagai
+            destinasi diklasifikasikan menggunakan tahapan Design Thinking.
+          </p>
+        </div>
+
+        <div class="overflow-x-auto bg-slate-800 rounded-xl shadow-2xl">
+          <table class="w-full text-left border-collapse">
+            <thead>
+              <tr class="bg-slate-900 border-b border-slate-700">
+                <th class="py-4 px-6 font-semibold text-blue-300">Tahapan</th>
+                <th class="py-4 px-6 font-semibold text-blue-300">
+                  Lokasi Berkaitan
+                </th>
+                <th class="py-4 px-6 font-semibold text-blue-300">
+                  Pembelajaran yang Diperoleh
+                </th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-700">
+              <tr class="hover:bg-slate-800/50 transition">
+                <td class="py-4 px-6 font-medium text-white">Empathize</td>
+                <td class="py-4 px-6 text-slate-300">
+                  BDI Denpasar, Pantai Kuta, Pantai Pandawa
+                </td>
+                <td class="py-4 px-6 text-slate-300">
+                  Memahami kebutuhan peserta dan wisatawan terhadap layanan
+                  serta pengalaman yang diberikan.
+                </td>
+              </tr>
+              <tr class="hover:bg-slate-800/50 transition">
+                <td class="py-4 px-6 font-medium text-white">Define</td>
+                <td class="py-4 px-6 text-slate-300">
+                  PT Victoria Care, Dewata, Krisna, Karang Kurnia
+                </td>
+                <td class="py-4 px-6 text-slate-300">
+                  Mengenali kebutuhan kegiatan produksi, penyediaan produk, dan
+                  pelayanan konsumen.
+                </td>
+              </tr>
+              <tr class="hover:bg-slate-800/50 transition">
+                <td class="py-4 px-6 font-medium text-white">Ideate</td>
+                <td class="py-4 px-6 text-slate-300">
+                  BDI Denpasar, Joger Luwus, Devdan Show
+                </td>
+                <td class="py-4 px-6 text-slate-300">
+                  Memahami pentingnya kreativitas dalam menghasilkan konten
+                  visual dan produk menarik.
+                </td>
+              </tr>
+              <tr class="hover:bg-slate-800/50 transition">
+                <td class="py-4 px-6 font-medium text-white">Prototype</td>
+                <td class="py-4 px-6 text-slate-300">
+                  PT Victoria Care Indonesia, BDI Denpasar
+                </td>
+                <td class="py-4 px-6 text-slate-300">
+                  Menghubungkan tahapan pengembangan produk dan praktik
+                  pengolahan hasil karya visual.
+                </td>
+              </tr>
+              <tr class="hover:bg-slate-800/50 transition">
+                <td class="py-4 px-6 font-medium text-white">Test</td>
+                <td class="py-4 px-6 text-slate-300">
+                  PT Victoria Care, Pusat Oleh-oleh, Jimbaran
+                </td>
+                <td class="py-4 px-6 text-slate-300">
+                  Mengevaluasi hasil produk akhir, kualitas pelayanan, dan
+                  kepuasan pengunjung di akhir agenda.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+   <section id="galeri" class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl font-bold text-dark mb-4">Galeri Kegiatan</h2>
+          <div class="w-16 h-1 bg-primary mx-auto rounded"></div>
+          <p class="mt-4 text-slate-600 max-w-2xl mx-auto">
+            Dokumentasi selama observasi lapangan, pelatihan, dan eksplorasi
+            budaya di Bali.
+          </p>
+        </div>
+
+        <!-- Menggunakan CSS Columns untuk efek Masonry murni -->
+        <div class="columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-4 space-y-4">
+          
+          <div class="rounded-xl overflow-hidden group bg-slate-100 shadow-sm break-inside-avoid">
+            <img
+              src="fotbar1.jpg"
+              alt="Galeri Utama"
+              class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500"
+            />
+          </div>
+
+          <div class="rounded-xl overflow-hidden group bg-slate-100 shadow-sm break-inside-avoid">
+            <img
+              src="DSCF4576.jpg"
+              alt="Galeri Audiens"
+              class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500"
+            />
+          </div>
+
+          <div class="rounded-xl overflow-hidden group bg-slate-100 shadow-sm break-inside-avoid">
+            <img
+              src="DSCF4610.jpg"
+              alt="Galeri Penyerahan Plakat"
+              class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500"
+            />
+          </div>
+
+          <div class="rounded-xl overflow-hidden group bg-slate-100 shadow-sm break-inside-avoid">
+            <img
+              src="pandawa.jpg"
+              alt="Galeri Pandawa"
+              class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500"
+            />
+          </div>
+
+          <div class="rounded-xl overflow-hidden group bg-slate-100 shadow-sm break-inside-avoid">
+            <img
+              src="fotbar4.jpg"
+              alt="Galeri Bersama"
+              class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500"
+            />
+          </div>
+
+          <!-- Foto vertikal sekarang akan otomatis menyesuaikan tempatnya tanpa celah -->
+          <div class="rounded-xl overflow-hidden group bg-slate-100 shadow-sm break-inside-avoid">
+            <img
+              src="DSCF4544.jpg"
+              alt="Galeri Pemateri"
+              class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500"
+            />
+          </div>
+
+          <div class="rounded-xl overflow-hidden group bg-slate-100 shadow-sm break-inside-avoid">
+            <img
+              src="DSCF4255.jpg"
+              alt="Galeri Tambahan"
+              class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500"
+            />
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="refleksi" class="py-20 bg-slate-50 border-t border-slate-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl font-bold text-dark mb-4">
+            Refleksi Pembelajaran
+          </h2>
+          <div class="w-16 h-1 bg-primary mx-auto rounded"></div>
+          <p class="mt-4 text-slate-600 max-w-2xl mx-auto">
+            Pemahaman dan pengalaman baru yang didapatkan selama pelaksanaan
+            Kuliah Kerja Lapangan.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8">
+          <div
+            class="flex gap-4 p-6 bg-white rounded-xl shadow-sm border border-slate-100"
+          >
+            <div
+              class="flex-shrink-0 w-12 h-12 bg-blue-100 text-primary rounded-full flex items-center justify-center font-bold text-xl"
+            >
+              ✓
+            </div>
+            <div>
+              <h4 class="font-bold text-dark text-lg mb-2">
+                Pemanfaatan Teknologi Informasi
+              </h4>
+              <p class="text-slate-600 text-sm leading-relaxed">
+                Kunjungan industri dan pelatihan memberikan pemahaman nyata
+                bahwa perangkat lunak dan sistem informasi sangat krusial dalam
+                membantu operasional industri serta pengolahan media digital.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="flex gap-4 p-6 bg-white rounded-xl shadow-sm border border-slate-100"
+          >
+            <div
+              class="flex-shrink-0 w-12 h-12 bg-blue-100 text-primary rounded-full flex items-center justify-center font-bold text-xl"
+            >
+              ✓
+            </div>
+            <div>
+              <h4 class="font-bold text-dark text-lg mb-2">
+                Kreativitas & Inovasi Bisnis
+              </h4>
+              <p class="text-slate-600 text-sm leading-relaxed">
+                Pengamatan di pusat oleh-oleh dan destinasi wisata
+                memperlihatkan pentingnya kreativitas dalam menghasilkan produk
+                maupun memberikan pengalaman interaktif kepada pengunjung.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="flex gap-4 p-6 bg-white rounded-xl shadow-sm border border-slate-100"
+          >
+            <div
+              class="flex-shrink-0 w-12 h-12 bg-blue-100 text-primary rounded-full flex items-center justify-center font-bold text-xl"
+            >
+              ✓
+            </div>
+            <div>
+              <h4 class="font-bold text-dark text-lg mb-2">
+                Pengembangan Kemampuan Diri
+              </h4>
+              <p class="text-slate-600 text-sm leading-relaxed">
+                Kegiatan lapangan ini melatih komunikasi, kerja sama tim,
+                kemampuan adaptasi dengan lingkungan baru, serta kemampuan
+                mengamati permasalahan langsung dari sumbernya.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="flex gap-4 p-6 bg-white rounded-xl shadow-sm border border-slate-100"
+          >
+            <div
+              class="flex-shrink-0 w-12 h-12 bg-blue-100 text-primary rounded-full flex items-center justify-center font-bold text-xl"
+            >
+              ✓
+            </div>
+            <div>
+              <h4 class="font-bold text-dark text-lg mb-2">
+                Apresiasi Lingkungan & Budaya
+              </h4>
+              <p class="text-slate-600 text-sm leading-relaxed">
+                Eksplorasi destinasi menambah wawasan akan kekayaan alam dan
+                budaya yang harus dijaga, serta menunjukkan bahwa pelestarian
+                budaya dapat berjalan berdampingan dengan pariwisata digital.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark border-t border-slate-800 py-8">
+      <div
+        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center md:text-left flex flex-col md:flex-row justify-between items-center text-slate-400 text-sm"
+      >
+        <p>&copy; 2026 Laporan KKL S1 Informatika UPGRIS.</p>
+        <p class="mt-2 md:mt-0">Disusun oleh Kelompok 12</p>
+      </div>
+    </footer>
+  </body>
+</html>
